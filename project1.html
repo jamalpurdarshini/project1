@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+@media screen and (min-width:1024px)  {
+    .main{
+   height: 350vh;
+   width: 100vw;
+   background-color: black;
+   overflow-x:hidden;
+}
+img{
+   background-image: url(./home-bg.1.jpg);
+   transform: translatey(50px);
+   width: 100vw;
+}
+.sd{
+display: flex;
+gap:20px;
+justify-content: center;
+transform: translateY(10px);
+}
+.sd1{
+        height: 40vh;
+        width: 20vw;
+        background-color: rgb(199, 113, 8);
+        color: #f5efef;
+    }
+    .sd11{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transform: translateY(15px);
+   }
+   svg{
+    height: 50px;
+    width: 50px;
+    transform: translateY(13px);
+   }
+.sd2{
+        height: 40vh;
+        width: 20vw;
+        background-color: rgb(21, 125, 92);
+        color: #f5efef;
+    }
+    .sd21{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transform: translateY(15px);
+   }
+.sd3{
+        height: 40vh;
+        width: 20vw;
+        background-color: rgb(244, 248, 15);
+        color: #f5efef;
+    }
+    .sd31{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transform: translateY(15px);
+   }
+.sd4{
+        height: 8vh;
+        width: 79vw;
+        background-color: rgb(10, 10, 10);
+        transform: translateY(-900px);
+        opacity: 0.87;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        line-height:50px;
+    }
+    .nav{
+        display: flex;
+        color: #f1eaea;
+       justify-content: flex-end;
+    }
+    .nav1{
+        height: 8vh;
+        width: 10vw;
+    }
+    .nav2{
+        height: 8vh;
+        width: 10vw;
+    }
+    .nav3{
+        height: 8vh;
+        width: 10vw;
+    }
+    .nav4{
+        height: 8vh;
+        width: 10vw;
+    }
+    .nav5{
+        height: 8vh;
+        width: 10vw;
+    }
+    .navv{
+        display: flex;
+        justify-content: flex-start;
+        transform: translateX(-950px);
+       align-content: center;
+    }
+    .navv1{
+    height:8vh;
+    width: 1vw;
+    background-color: rgb(230, 37, 230);
+    }
+    .navv2{
+    height:45%;
+    width: 35%;
+    background-color: rgb(226, 35, 226);
+    border-radius:100%;
+    
+    }
+    .navv3{
+        height: 8vh;
+        width: 10vw;
+        color: #efeaea;
+       
+    }
+    .md{
+     display: flex;
+     justify-content: center;
+    }
+    .imgg{
+        height: 40vh;
+        width: 32vw; 
+    }
+    .sd5{
+        height: 40vh;
+        width: 30vw;
+        background-color: rgb(13, 12, 12);
+        opacity:0.;
+        transform: translateY(50px);
+        place-content: center;
+    }
+    .sd51{
+        color: #f1eaea;
+    }
+    p{
+        opacity: 0.5;
+    }
+    .sd52{
+        border: 2px solid white;
+        height: 3vh;
+        width: 8vw;
+        color: #efeaea;
+        display: flex;
+        justify-content: center;
+        place-items: center;
+        font-size: 10px;
+    }
+    .mdd{
+     color: rgb(240, 227, 231);
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+     transform: translateY(105px);
+    }
+    .mddd{
+    color: antiquewhite;
+    opacity: 0.6;
+    font-size: 7px;
+   transform: translateY(100px);
+    }
+    .images{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+    .images1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .img1{
+        height: 30vh;
+        width: 35vw;
+    }
+    .img2{
+        height: 30vh;
+        width: 35vw;
+    }
+    .img3{
+        height: 30vh;
+        width: 30vw;
+    }
+    .img4{
+        height: 20vh;
+        width: 25vw;
+    }
+    .img5{
+        height: 20vh;
+        width: 25vw;
+    }
+    .img6{
+        height: 20vh;
+        width: 25vw;
+    }
+    .img7{
+        height: 20vh;
+        width: 25vw;
+    }
+    .pic{
+     transform: translateY(100px);
+    }
+    .sd6{
+        height: 5vh;
+        width: 7vw;
+        border: 2px solid white;
+       display: flex;
+       justify-content: center;
+       transform: translateY(80px);
+         color: #ece3e3;
+         place-items: center;
+        }
+        .sd7{
+   height: 50vh;
+   width: 100vw;
+   background-color: rgb(9, 9, 9);
+   opacity: 5.5;
+   transform: translateY(140px);
+       }
+    .sd71{
+        font-size: 25px;
+        color: #ece3e3;
+     font-weight: bold;
+     transform: translateY(50px);
+       }
+    .sd72{
+     width: 22vw;
+color: #f7f3f3;
+opacity: 0.5;
+transform: translateX(-450px);
+text-align: justify;
+margin-top: 70px;
+    }
+    .sd73{
+        height: 10px;
+        width: 10px;
+       transform: translateX(-610px);
+       opacity: 0.5;
+        color: aliceblue;
+   }
+.sd74{
+   transform: translateX(-520px);
+    opacity: 0.5;
+    color: #ece3e3;
+}
+.sd75{
+        font-size: 14px;
+        color: #ece3e3;
+        font-weight: bold;
+     opacity: 0.8;
+     transform: translateX(500px);
+     margin-top: -125px;
+    }
+   .sd76{
+    width: 20vw;
+    font-size: 15px;
+    color: #fdf9f9;
+    opacity: 0.4;
+    text-align: justify;
+    transform: translateX(510px);
+    margin-top: -135px;
+   }
+   .sd77{
+    height: 4vh;
+        width: 10vw;
+        border: 2px solid white;
+       display: flex;
+       justify-content: center;
+      transform: translateX(430px);
+         color: #ece3e3;
+         place-items: center;
+   }
+   .sd78{
+    width: 10vh;
+    height: 2vw;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    transform: translateX(392px);
+    color: #f6f1f1;
+   }
+   .sv{
+    height: 15px;
+    width: 15px;
+   }
+   .head{
+    color: #efeaea;
+    font-size: 40px;
+    font-weight: bold;
+    transform: translateY(-260vh);
+    margin-left: 30vw;
+   }
+   .sd79{
+    color: #efeaea;
+    opacity: 0.5;
+    transform: translateX(-520px);
+   }
+   .sd8{
+  height: 10vh;
+  width: 30vw;
+ display: flex;
+ opacity: 0.3;
+/* justify-content: flex-end;   
+align-content: end; */
+}
+   .sd81{
+    height:10vh ;
+    width: 10vw;
+    border: 2px solid white;
+    color: #efeaea;
+   }
+   .sd82{
+    height:10vh ;
+    width: 10vw;
+    border: 2px solid white;
+    color: #efeaea;
+   }
+   .sd83{
+    height:10vh ;
+    width: 10vw;
+    border: 2px solid white;
+    color: #efeaea;
+   }
+   .sd84{
+    height:10vh ;
+    width: 10vw;
+    border: 2px solid white;
+    color: #efeaea;
+   }
+   .sd85{
+    height:10vh ;
+    width: 10vw;
+    border: 2px solid white;
+    color: #efeaea;
+   }
+   .sd86{
+    height:10vh ;
+    width: 10vw;
+    border: 2px solid white;
+    color: #efeaea;
+   }
+}
+</style>
+<body>
+<center>
+<div class="main">
+    <img src="./home-bg.1.jpg" width="290"></img><br>
+    <div class="sd">
+        <div class="sd1">
+        <div class="sd11">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 9C3 6.17157 3 4.75736 3.87868 3.87868C4.75736 3 6.17157 3 9 3H15C17.8284 3 19.2426 3 20.1213 3.87868C21 4.75736 21 6.17157 21 9V14C21 15.8856 21 16.8284 20.4142 17.4142C19.8284 18 18.8856 18 17 18H7C5.11438 18 4.17157 18 3.58579 17.4142C3 16.8284 3 15.8856 3 14V9Z" stroke="#f1f4fe" stroke-width="1.5"></path> <path d="M22 21H2" stroke="#f1f4fe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M15 15H9" stroke="#f1f4fe" stroke-width="1.5" stroke-linecap="round"></path> </g></svg></div>
+        <h1>RESPONSIVE</h1>
+        Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit.sed<br> diam nonummy nibh euismod<br>tincidunt ut laoreet.
+    </div>
+    <div class="sd2">
+        <div class="sd21">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 18H12.01M11 6H13M9.2 21H14.8C15.9201 21 16.4802 21 16.908 20.782C17.2843 20.5903 17.5903 20.2843 17.782 19.908C18 19.4802 18 18.9201 18 17.8V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.07989 6 6.2V17.8C6 18.9201 6 19.4802 6.21799 19.908C6.40973 20.2843 6.71569 20.5903 7.09202 20.782C7.51984 21 8.07989 21 9.2 21Z" stroke="#fbefef" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>
+        <h1>Easy to Use</h1>
+        Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit.sed<br> diam nonummy nibh euismod<br>tincidunt ut laoreet.
+    </div>
+    <div class="sd3">
+        <div class="sd31">
+        <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>world_2_fill</title> <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="world_2_fill"> <path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5934901,23.257841 L12.5819402,23.2595131 L12.5108777,23.2950439 L12.4918791,23.2987469 L12.4918791,23.2987469 L12.4767152,23.2950439 L12.4056548,23.2595131 C12.3958229,23.2563662 12.3870493,23.2590235 12.3821421,23.2649074 L12.3780323,23.275831 L12.360941,23.7031097 L12.3658947,23.7234994 L12.3769048,23.7357139 L12.4804777,23.8096931 L12.4953491,23.8136134 L12.4953491,23.8136134 L12.5071152,23.8096931 L12.6106902,23.7357139 L12.6232938,23.7196733 L12.6232938,23.7196733 L12.6266527,23.7031097 L12.609561,23.275831 C12.6075724,23.2657013 12.6010112,23.2592993 12.5934901,23.257841 L12.5934901,23.257841 Z M12.8583906,23.1452862 L12.8445485,23.1473072 L12.6598443,23.2396597 L12.6498822,23.2499052 L12.6498822,23.2499052 L12.6471943,23.2611114 L12.6650943,23.6906389 L12.6699349,23.7034178 L12.6699349,23.7034178 L12.678386,23.7104931 L12.8793402,23.8032389 C12.8914285,23.8068999 12.9022333,23.8029875 12.9078286,23.7952264 L12.9118235,23.7811639 L12.8776777,23.1665331 C12.8752882,23.1545897 12.8674102,23.1470016 12.8583906,23.1452862 L12.8583906,23.1452862 Z M12.1430473,23.1473072 C12.1332178,23.1423925 12.1221763,23.1452606 12.1156365,23.1525954 L12.1099173,23.1665331 L12.0757714,23.7811639 C12.0751323,23.7926639 12.0828099,23.8018602 12.0926481,23.8045676 L12.108256,23.8032389 L12.3092106,23.7104931 L12.3186497,23.7024347 L12.3186497,23.7024347 L12.3225043,23.6906389 L12.340401,23.2611114 L12.337245,23.2485176 L12.337245,23.2485176 L12.3277531,23.2396597 L12.1430473,23.1473072 Z" id="MingCute" fill-rule="nonzero"> </path> <path d="M12,2 C17.5228,2 22,6.47715 22,12 C22,17.5228 17.5228,22 12,22 C6.47715,22 2,17.5228 2,12 C2,6.47715 6.47715,2 12,2 Z M14.0003,13.3997 L12.4361,14.651 C12.2034,14.8371 12.1842,15.1842 12.3949,15.395 L13.6335,16.6335 C13.8738,16.8738 14.0489,17.1715 14.1423,17.4983 L14.3173,18.1109 C14.475,18.6626 14.8621,19.0681 15.3341,19.2742 C16.2962,18.8325 17.1556,18.2056 17.8666,17.439 L17.6327,15.5621 C17.5498,14.8985 17.1407,14.3203 16.5426,14.0213 L15.0722,13.2861 C14.7233,13.1117 14.3049,13.156 14.0003,13.3997 Z M12.00019,4.0001 C9.42180852,4.0001 7.12830215,5.21989517 5.66528324,7.11389997 L5.50019,7.3354 L5.50019,9.02036 C5.50019,10.2763981 6.28143263,11.3921732 7.44527412,11.8288578 L7.62267,11.8892 L8.91327,12.2839 C10.2862557,12.7039167 11.6231437,11.5865853 11.4901591,10.1882105 L11.4711,10.0426 L11.2964,8.99432 C11.2156143,8.50963357 11.4984372,8.04442526 11.952231,7.88603447 L12.0599,7.85506 L12.6717,7.71522 C13.6953,7.48125 14.4863,6.66834 14.6923,5.63873 C14.7732,5.23419 14.7578,4.83059 14.6607,4.45314 C13.8284,4.15972 12.9329,4.0001 12.00019,4.0001 Z" id="形状" fill="#f4f7fb" fill-rule="nonzero"> </path> </g> </g> </g></svg></div>
+        <h1>Quick Supporrt</h1>
+        Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit.sed<br> diam nonummy nibh euismod<br>tincidunt ut laoreet.
+    </div></div>
+    <div class="sd4">
+        <div class="nav">
+        <div class="nav1">HOME</div>
+        <div class="nav2">ABOUT US</div>
+        <div class="nav3">PORTOFOLIO</div>
+        <div class="nav4">CONTACT </div></div>
+        <div class="navv">
+        <div class="navv1"></div>
+        <div class="navv2"></div>
+        <div class="navv3">NETEL</div></div>
+    </div>
+   <div class="md">
+      <img src="./about-img.jpg"class="imgg"></img>
+      <div class="sd5">
+          <div class="sd51">
+          <h1>Startup Bussiness</h1>
+          <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.sed<br>diam nonummy nibh euismod tincidunt ut laoreet.Dolore<br>magna aliquam erat volutpat Lorem ipsum dolor sit amet<br><br>
+          Lorem ipsum dolor sit amet,consectetur adipisicing elit.sed<br>diam nonummy nibh euismod tincidunt ut laoreet.Dolore<br>magna aliquam erat volutpat Lorem ipsum dolor sit amet</p></div>
+      <div class="sd52">LEARN MORE</div>
+    </div></div>
+<div class="mdd">Recent Projects</div><br>
+<div class="mddd">Lorem ipsum dolor sit amet,consectetur adipisicing elit.sed diam nonummy nibh<br>euismod tincidunt ut laoreet.Dolore magna aliquam erat volutpat</div>
+<div class="pic">
+    <div class="images">
+        <img class="img1" src="./portfolio-img1.jpg"  class="src1">
+        <img  class="img2" src="./portfolio-img2.jpg"  class="src2">
+        <img class="img3" src="./portfolio-img3.jpg"  class="src3"></div>
+    <div class="images1">
+        <img class="img4" src="./portfolio-img4.jpg"class="src4">
+        <img class="img5" src="./portfolio-img5.jpg"class="src5">
+        <img class="img6" src="./portfolio-img6.jpg"class="src6">
+        <img class="img7" src="./portfolio-img7.jpg"class="src7"></div>
+<div class="sd6">view more</div>
+<div class="sd7"><pre class="sd71">     NETEL                           useful Links                       Newsletter     </pre>
+<div class="sd72">onetel is free bootstrap v3.3.3 HTML5 layout from templatemo website.Feel free to use it for your website.<br></div><br>
+<div class="sd73"> <svg  viewBox="0 0 24 24"class="sv" fill="none"xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3.51089 2L7.15002 2.13169C7.91653 2.15942 8.59676 2.64346 8.89053 3.3702L9.96656 6.03213C10.217 6.65159 10.1496 7.35837 9.78693 7.91634L8.40831 10.0375C9.22454 11.2096 11.4447 13.9558 13.7955 15.5633L15.5484 14.4845C15.9939 14.2103 16.5273 14.1289 17.0314 14.2581L20.5161 15.1517C21.4429 15.3894 22.0674 16.2782 21.9942 17.2552L21.7705 20.2385C21.6919 21.2854 20.8351 22.1069 19.818 21.9887C6.39245 20.4276 -1.48056 1.99997 3.51089 2Z" stroke="#fbf4f4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g>jhnjhjh</svg>
+<svg viewBox="0 0 24 24"class="sv" fill="none"xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="#fcfcfd"></path> </g></svg>
+<svg viewBox="0 0 24 24"class="sv" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>world_2_fill</title> <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="world_2_fill"> <path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5934901,23.257841 L12.5819402,23.2595131 L12.5108777,23.2950439 L12.4918791,23.2987469 L12.4918791,23.2987469 L12.4767152,23.2950439 L12.4056548,23.2595131 C12.3958229,23.2563662 12.3870493,23.2590235 12.3821421,23.2649074 L12.3780323,23.275831 L12.360941,23.7031097 L12.3658947,23.7234994 L12.3769048,23.7357139 L12.4804777,23.8096931 L12.4953491,23.8136134 L12.4953491,23.8136134 L12.5071152,23.8096931 L12.6106902,23.7357139 L12.6232938,23.7196733 L12.6232938,23.7196733 L12.6266527,23.7031097 L12.609561,23.275831 C12.6075724,23.2657013 12.6010112,23.2592993 12.5934901,23.257841 L12.5934901,23.257841 Z M12.8583906,23.1452862 L12.8445485,23.1473072 L12.6598443,23.2396597 L12.6498822,23.2499052 L12.6498822,23.2499052 L12.6471943,23.2611114 L12.6650943,23.6906389 L12.6699349,23.7034178 L12.6699349,23.7034178 L12.678386,23.7104931 L12.8793402,23.8032389 C12.8914285,23.8068999 12.9022333,23.8029875 12.9078286,23.7952264 L12.9118235,23.7811639 L12.8776777,23.1665331 C12.8752882,23.1545897 12.8674102,23.1470016 12.8583906,23.1452862 L12.8583906,23.1452862 Z M12.1430473,23.1473072 C12.1332178,23.1423925 12.1221763,23.1452606 12.1156365,23.1525954 L12.1099173,23.1665331 L12.0757714,23.7811639 C12.0751323,23.7926639 12.0828099,23.8018602 12.0926481,23.8045676 L12.108256,23.8032389 L12.3092106,23.7104931 L12.3186497,23.7024347 L12.3186497,23.7024347 L12.3225043,23.6906389 L12.340401,23.2611114 L12.337245,23.2485176 L12.337245,23.2485176 L12.3277531,23.2396597 L12.1430473,23.1473072 Z" id="MingCute" fill-rule="nonzero"> </path> <path d="M12,2 C17.5228,2 22,6.47715 22,12 C22,17.5228 17.5228,22 12,22 C6.47715,22 2,17.5228 2,12 C2,6.47715 6.47715,2 12,2 Z M14.0003,13.3997 L12.4361,14.651 C12.2034,14.8371 12.1842,15.1842 12.3949,15.395 L13.6335,16.6335 C13.8738,16.8738 14.0489,17.1715 14.1423,17.4983 L14.3173,18.1109 C14.475,18.6626 14.8621,19.0681 15.3341,19.2742 C16.2962,18.8325 17.1556,18.2056 17.8666,17.439 L17.6327,15.5621 C17.5498,14.8985 17.1407,14.3203 16.5426,14.0213 L15.0722,13.2861 C14.7233,13.1117 14.3049,13.156 14.0003,13.3997 Z M12.00019,4.0001 C9.42180852,4.0001 7.12830215,5.21989517 5.66528324,7.11389997 L5.50019,7.3354 L5.50019,9.02036 C5.50019,10.2763981 6.28143263,11.3921732 7.44527412,11.8288578 L7.62267,11.8892 L8.91327,12.2839 C10.2862557,12.7039167 11.6231437,11.5865853 11.4901591,10.1882105 L11.4711,10.0426 L11.2964,8.99432 C11.2156143,8.50963357 11.4984372,8.04442526 11.952231,7.88603447 L12.0599,7.85506 L12.6717,7.71522 C13.6953,7.48125 14.4863,6.66834 14.6923,5.63873 C14.7732,5.23419 14.7578,4.83059 14.6607,4.45314 C13.8284,4.15972 12.9329,4.0001 12.00019,4.0001 Z" id="形状" fill="#f1f4f9" fill-rule="nonzero"> </path> </g> </g> </g></svg></div> 
+<div class="sd74">info@company.com<br>010-020-0340<br>www.company.com
+<div class="sd75">HTML5 Templates<br><br> CSS3 Tricks<br><br> Design Blog<br><br>Animations<br><br></div></div>
+<div class="sd76">Lorem ipsum dolor sit amet,consectetur adipisicing elit.sed diam nonummy nibh <br>euismod</div><br>
+<div class="sd77">Enter your email</div><br>
+<div class="sd78">Submit</div><br><br><br>
+<div class="head">welcome to <br>Onetel Design Studio</div>
+<div class="sd79">Copyright @ Company Name</div>
+<div class="sd8">
+    <div class="sd81"><svg fill="#f4ebeb" viewBox="0 0 32 32"height="20"width="20" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"></path></g></svg></div>
+    <div class="sd82"><svg viewBox="0 -2 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>twitter [#154]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="#fff0f0"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#154]"> </path> </g> </g> </g> </g></svg></div>
+    <div class="sd83"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 15L20 15" stroke="#f9ebeb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M4 9L20 9" stroke="#f9ebeb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="12" cy="12" r="9" stroke="#f9ebeb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle> <path d="M12.0004 20.8182L11.2862 21.5181C11.4742 21.7101 11.7317 21.8182 12.0004 21.8182C12.2691 21.8182 12.5265 21.7101 12.7146 21.5181L12.0004 20.8182ZM12.0004 3.18188L12.7146 2.48198C12.5265 2.29005 12.2691 2.18188 12.0004 2.18188C11.7317 2.18188 11.4742 2.29005 11.2861 2.48198L12.0004 3.18188ZM14.6004 12.0001C14.6004 15.1611 13.3373 18.0251 11.2862 20.1183L12.7146 21.5181C15.1173 19.0662 16.6004 15.7053 16.6004 12.0001H14.6004ZM11.2861 3.88178C13.3373 5.97501 14.6004 8.83903 14.6004 12.0001H16.6004C16.6004 8.29478 15.1173 4.93389 12.7146 2.48198L11.2861 3.88178ZM9.40039 12.0001C9.40039 8.83903 10.6634 5.97501 12.7146 3.88178L11.2861 2.48198C8.88347 4.93389 7.40039 8.29478 7.40039 12.0001H9.40039ZM12.7146 20.1183C10.6634 18.0251 9.40039 15.1611 9.40039 12.0001H7.40039C7.40039 15.7053 8.88348 19.0662 11.2862 21.5181L12.7146 20.1183Z" fill="#f9ebeb"></path> </g></svg></div>
+    <div class="sd84"><svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>pinterest [#180]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-220.000000, -7399.000000)" fill="#f8e7e7"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M173.876,7239 C168.399,7239 164,7243.43481 164,7248.95866 C164,7253.05869 166.407,7256.48916 169.893,7258.07936 C169.893,7256.21186 169.88,7256.45286 171.303,7250.38046 C170.521,7248.80236 171.129,7246.19673 172.88,7246.19673 C175.31,7246.19673 173.659,7249.79964 173.378,7251.2174 C173.129,7252.30544 173.959,7253.14238 174.955,7253.14238 C176.864,7253.14238 178.108,7250.71524 178.108,7247.87063 C178.108,7245.69456 176.615,7244.10437 174.042,7244.10437 C169.467,7244.10437 168.307,7249.19966 169.893,7250.79893 C170.292,7251.40294 169.893,7251.43118 169.893,7252.22174 C169.616,7253.05768 167.403,7251.84259 167.403,7248.70757 C167.403,7245.86195 169.727,7242.51518 174.457,7242.51518 C178.191,7242.51518 180.681,7245.27609 180.681,7248.2054 C180.681,7252.13805 178.523,7254.98366 175.37,7254.98366 C174.291,7254.98366 173.295,7254.3978 172.963,7253.72824 C172.36,7256.07371 172.238,7257.26258 171.303,7258.58153 C172.216,7258.83261 173.129,7259 174.125,7259 C179.602,7259 184,7254.56519 184,7249.04235 C183.752,7243.43481 179.353,7239 173.876,7239" id="pinterest-[#180]"> </path> </g> </g> </g> </g></svg></div>
+    <div class="sd85"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 19C1.67157 19 1 18.3284 1 17.5V6.5C1 5.67157 1.67157 5 2.5 5H8C13 5 13 11.5 10 11.5C13 11.5 14 19 8 19H2.5ZM4.5 11C4.22386 11 4 10.7761 4 10.5V7.5C4 7.22386 4.22386 7 4.5 7H7C7 7 9 7 9 9C9 11 7 11 7 11H4.5ZM4.5 13C4.22386 13 4 13.2239 4 13.5V16.5C4 16.7761 4.22386 17 4.5 17H8C8 17 9.5 17 9.5 15C9.5 13 8 13 8 13H4.5Z" fill="#f7f3f3"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M21.499 14.0034C22.3279 14.0034 23.0212 13.3199 22.8522 12.5085C21.6065 6.52886 12.9128 7.08088 13 14.0034C13.0665 19.2762 20.4344 20.9671 22.6038 16.1898C22.9485 15.4308 22.1747 14.9997 21.5372 14.9997C20.9706 14.9997 20.5313 15.5223 20.1693 15.9582C19.1272 17.2132 15.9628 17.1221 15.5449 14.5142C15.5005 14.2375 15.7304 14.0034 16.0106 14.0034H21.499ZM15.8184 11.9997C15.671 11.9997 15.5758 11.8453 15.6545 11.7207C16.7141 10.0424 19.2614 10.0605 20.3398 11.7189C20.4207 11.8434 20.3257 11.9997 20.1772 11.9997H15.8184Z" fill="#f7f3f3"></path> <path d="M16 6C15.4477 6 15 6.44772 15 7C15 7.55228 15.4477 8 16 8H20C20.5523 8 21 7.55228 21 7C21 6.44772 20.5523 6 20 6H16Z" fill="#f7f3f3"></path> </g></svg></div>
+    <div class="sd86"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="#efeef6"></path> </g></svg></div>
+</div>
+</div>
+</div>
+</body>
+</html>
